@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitesh Kumar | Portfolio</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <header>
+    <img src="src/profile.jpg" alt="Sitesh Kumar" />
+    <h1>Sitesh Kumar</h1>
+    <p>PHP & Laravel Developer | Backend & Frontend Integration Expert</p>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">Portfolio</div>
+      <div class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">&#9776;</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a dedicated and enthusiastic web developer with over 3 years of experience in backend development using PHP frameworks like Laravel and CodeIgniter. I also have good command over frontend technologies like HTML, CSS, Bootstrap, and JavaScript, which allows me to build complete, responsive, and functional web solutions. I enjoy learning new technologies, solving challenging problems, and building real-world applications that make a difference.</p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Laravel:</strong> REST APIs, Eloquent ORM, Middleware</li>
+        <li><strong>CodeIgniter:</strong> MVC Architecture, Libraries, Helpers</li>
+        <li><strong>JavaScript & jQuery:</strong> Interactive frontends, AJAX</li>
+        <li><strong>MySQL:</strong> Efficient database design and queries</li>
+        <li><strong>HTML/CSS/Bootstrap:</strong> Responsive and clean UI design</li>
+        <li><strong>Git & GitHub:</strong> Version control and collaboration</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Online Examination System</h3>
+        <p>A complete exam platform with student login, MCQ system, timer, and result analysis. Built using Laravel + MySQL.</p>
+      </div>
+      <div class="project">
+        <h3>Postal Management System</h3>
+        <p>Designed for managing post office operations like booking, tracking, and delivery. Admin and user dashboards included.</p>
+      </div>
+      <div class="project">
+        <h3>Franchise Management System</h3>
+        <p>Helps businesses manage multiple franchise partners, their data, requests, and progress tracking.</p>
+      </div>
+      <div class="project">
+        <h3>School ERP</h3>
+        <p>Complete solution for school management including student records, fee management, exams, and notifications.</p>
+      </div>
+      <div class="project">
+        <h3>Office Management System</h3>
+        <p>Handles day-to-day office tasks like employee attendance, task allocation, meetings, and HR functions.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="mobile" placeholder="Mobile Number" required />
+        <textarea name="message" rows="5" placeholder="Your Suggestions / What to Update in My Profile" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Sitesh Kumar | All Rights Reserved
+  </footer>
+</body>
+</html>
