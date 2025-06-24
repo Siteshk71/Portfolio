@@ -35,7 +35,7 @@ This is my professional portfolio website built using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Preview
 
-[Click here to view the website]([https://yourdomain.com](https://github.com/Siteshk71/Portfolio/)) *(replace with your actual live link)*
+[Click here to view the website](https://github.com/Siteshk71/Portfolio/)
 
 ---
 
